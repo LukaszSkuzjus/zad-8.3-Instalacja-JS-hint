@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     },
     sass: {
   		options: {
-  			sourceMap: true
+  			trace: true
   		},
   		dist: {
   			files: {
@@ -31,6 +31,7 @@ module.exports = function(grunt) {
             			spawn: false,
         		},
     		}
+	}
   });
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
